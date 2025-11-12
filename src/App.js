@@ -58,7 +58,7 @@ export default function App() {
     <>
  <div className = "container">
    <audio autoPlay loop>
-     <source src="bg.m4a" type="audio/mpeg" />
+     <source src="bg.mp3" type="audio/mpeg" />
   </audio>
  <div className = "yearShift">
     <div className = "numControl">
