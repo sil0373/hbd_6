@@ -57,9 +57,9 @@ export default function App() {
   return (
     <>
  <div className = "container">
-   <audio autoPlay loop>
-     <source src="bg.mp3" type="audio/mpeg" />
-  </audio>
+ <audio autoPlay loop>
+  <source src={`${process.env.PUBLIC_URL}/bg.mp3`} type="audio/mpeg" />
+</audio>
  <div className = "yearShift">
     <div className = "numControl">
         <p id = "left" style={{fontSize : "60px", color : "azure"}} 
